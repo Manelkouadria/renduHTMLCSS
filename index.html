@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>site bougies</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div>
-            <img class="photo nav" src="vase.png" alt="Logo">
+            <img class="photo" src="vase.png" alt="Logo">
             <h1>Bohemian vase</h1>
         </div>
 
@@ -20,11 +23,11 @@
                 <a class="nav" href="">A propos</a>
             </li>
             <li>
-                <a class="nav" href="">Boutique</a>
+                <a href="">Boutique</a>
 
             </li>
             <li>
-                <a class="nav" href="">Contact</a>
+                <a href="">Contact</a>
             </li>
         </ul>
 
@@ -33,86 +36,107 @@
 
     </header>
     <div>
-        <img id="photoo" src="nv v.avif" alt="Photo principale">
-        <img class="photo" src="vase.png" alt="logo">
-        <h2>Bohemian vase</h2>
-        <h3>Des vases qui ne contiennent pas que des fleurs...mais aussi des histoires</h3>
+        <div class="aligne">
+            <img id="photoo" src="nvl v.avif" alt="Photo principale">
+            <div class="aligne2">
+                <div class="aligne2">
+                    <img class="photo" src="vase.png" alt="logo">
+                    <h2>Bohemian vase</h2>
+                </div>
+                <h3>Des vases qui ne contiennent pas que des fleurs...mais aussi des histoires</h3>
+            </div>
+        </div>
+
+
     </div>
     <section>
-        <h2>Et si un simple vase devenait l'âme de votre intérieur ?</h2>
-        <p>Bienvenu chez Bohemian vase, une boutique artisanale où chaque vase est façonné avec soin et passion. Nos
-            créations s'inspirent de la nature, des formes organiques et de l'élégance intemporelles</p>
-    </section>
-    <div>
-        <div>
-            <img src="plant (1).svg" alt="logo plante">
-            <p>Ingrédients naturels</p>
-        </div>
-        <div>
-            <img src="hand.svg" alt="logo main">
-            <p>Fait main</p>
-        </div>
-        <div>
-            <img src="planet.svg" alt="logo planete">
-            <p>Ecorésponsable</p>
-        </div>
-    </div>
-    <p>Laissez-vous séduire par les parfums délicats de nos bougies artisanales.</p>
-    <div>
-        <h2>La nouvelle collection</h2>
-        <div>
-            <article>
-                <img class="achat" src="vase 5.avif" alt="achat1">
-                <h3>Épuré</h3>
-                <h4>50,90€</h4>
-                <p>L'élégance du minimalisme</p>
-                <button>Ajouter au panier</button>
 
-            </article>
+        <div class="center">
+            <h2 class="center">Et si un simple vase devenait l'âme de votre intérieur ?</h2>
+            <p>Bienvenu chez Bohemian vase, une boutique artisanale où chaque vase est façonné avec soin et passion.
+                Nos
+                créations s'inspirent de la nature, des formes organiques et de l'élégance intemporelles</p>
         </div>
-        <div>
-            <article>
-                <img class="achat" src="vase 4.avif" alt="achat 2">
-                <h3>L'Écho du vide</h3>
-                <h4>78,90€</h4>
-                <p>La beauté du silence dans une forme</p>
-                <button>Ajouter au panier</button>
-            </article>
 
-        </div>
-        <div>
-            <article>
-                <img class="achat" src="vase 3.avif" alt="achat 3">
-                <h3>Vazé</h3>
-                <h4>90,45€</h4>
-                <p>Un design qui parle de lui-même</p>
-                <button>Ajouter au panier</button>
-            </article>
 
-        </div>
-        <section>
-            <h2>Nous contacter</h2>
-            <form action="Nous contacter">
-                <ul>
-                    <li>
-                        <label for="Nom">Nom:</label>
-                        <input type="NOM" name="user_Nom">
-                    </li>
-                    <li>
-                        <label for="Mail">Mail:</label>
-                        <input type="Mail" name="user_mail">
-                    </li>
-                    <li>
-                        <label for="Message">Message:</label>
-                        <textarea name="Message" id="Message"></textarea>
-                    </li>
-                </ul>
-                <button>Envoyer</button>
-            </form>
+        <section class="contener">
+            <article class="block">
+                <img src="plant (1).svg" alt="logo plante">
+                <p>Ingrédients naturels</p>
+            </article>
+            <article class="block">
+                <img src="hand.svg" alt="logo main">
+                <p>Fait main</p>
+            </article>
+            <article class="block">
+                <img src="planet.svg" alt="logo planete">
+                <p>Ecorésponsable</p>
+            </article>
         </section>
+    </section>
+    <p class="center">Laissez-vous séduire par les parfums délicats de nos bougies artisanales.</p>
+    <section>
+
+        <h2 class="center">La nouvelle collection</h2>
+        <div class="contener ">
+            <div>
+                <article class="block">
+                    <img class="achat" src="vase 5.avif" alt="achat1">
+                    <h3>Épuré</h3>
+                    <h4>50,90€</h4>
+                    <p>L'élégance du minimalisme</p>
+                    <button>Ajouter au panier</button>
+
+                </article>
+            </div>
+            <div>
+                <article class="block">
+                    <img class="achat" src="vase 4.avif" alt="achat 2">
+                    <h3>L'Écho du vide</h3>
+                    <h4>78,90€</h4>
+                    <p>La beauté du silence dans une forme</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+            </div>
+            <div>
+                <article class="block">
+                    <img class="achat" src="vase 3.avif" alt="achat 3">
+                    <h3>Vazé</h3>
+                    <h4>90,45€</h4>
+                    <p>Un design qui parle de lui-même</p>
+                    <button>Ajouter au panier</button>
+                </article>
+
+            </div>
 
 
-    </div>
+        </div>
+    </section>
+    <section>
+        
+        <form class="center" action="Nous contacter" method="post">
+            <h2>Nous contacter</h2>
+            <ul>
+                <li>
+                    <label for="Nom">Nom:</label>
+                    <input type="NOM" name="user_Nom">
+                </li>
+                <li>
+                    <label for="Mail">Mail:</label>
+                    <input type="Mail" name="user_mail">
+                </li>
+                <li>
+                    <label for="Message">Message:</label>
+                    <textarea name="Message" id="Message"></textarea>
+                </li>
+            </ul>
+            <button>Envoyer</button>
+        </form>
+    </section>
+
+
+
 </body>
 
 </html>
