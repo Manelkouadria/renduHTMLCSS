@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.photo {
+    width: 50px;
+
+}
+
+
+header {
+    background-color: rgb(212, 190, 150);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+    div,
+    ul {
+        display: flex;
+
+        align-items: center;
+        gap: 23px;
+        list-style: none;
+    }
+}
+
+
+
+
+#photoo {
+    width: 270px;
+    height: 302px;
+}
+
+.achat {
+    width: 100px;
+    height: 100px;
+}
