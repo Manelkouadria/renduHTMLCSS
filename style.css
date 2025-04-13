@@ -300,6 +300,7 @@ footer .photoF {
     margin-top: 20px;
 }
 .ph h3{
+    
     font-size: 1.6rem;
     font-weight: bold;
     margin-top: 20px;
@@ -318,4 +319,8 @@ footer .photoF {
     padding: 50 30px;
     gap: 40px;
    
+}
+.ph2{
+
+
 }
